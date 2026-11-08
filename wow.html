@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WoW Progression Guide</title>
+    <meta name="theme-color" content="#090d16" />
+    <title>World of Warcraft: Complete Progression Guide</title>
     <meta
       name="description"
-      content="Learn the best ways to progress in World of Warcraft, including leveling, dungeons, gear, raids, renown, and endgame activities."
+      content="A practical World of Warcraft guide to leveling faster, choosing a class and weapons, gearing up, and learning dungeons, raids, PvP, and endgame progression."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,238 +20,171 @@
   <body>
     <header class="site-header">
       <div class="container nav-wrap">
-        <a href="index.html" class="brand">
+        <a href="wow.html" class="brand" aria-label="WoW guide home">
           <span class="brand-mark">WoW</span>
-          <span>Progression</span>
+          <span>Progression Guide</span>
         </a>
-
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="#overview">Overview</a>
           <a href="#leveling">Leveling</a>
+          <a href="#class">Class &amp; weapons</a>
           <a href="#gear">Gear</a>
           <a href="#endgame">Endgame</a>
           <a href="#checklist">Checklist</a>
-          <a href="index.html">COD</a>
+          <a href="index.html">COD guide</a>
         </nav>
       </div>
     </header>
 
-    <main id="overview">
+    <main id="top">
       <section class="hero section">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Best path to progression</p>
-            <h1>Learn how to level up and grow in World of Warcraft.</h1>
+            <p class="eyebrow">A practical beginner-to-endgame guide</p>
+            <h1>Your next steps in Azeroth, made easier.</h1>
             <p class="lead">
-              Whether you're starting fresh or returning, this guide shows the most efficient path for leveling,
-              gear, renown, dungeons, and endgame progression.
+              Learn how to level efficiently, choose a class and weapon style that fits you,
+              improve your gear, and pick the endgame activities you actually enjoy.
             </p>
-
+            <p class="guide-note">
+              WoW changes with expansions, patches, and seasons. Level caps, quests, item levels,
+              and reward systems can change; use the current in-game Adventure Guide and official
+              patch notes for season-specific details.
+            </p>
             <div class="cta-row">
-              <a href="#leveling" class="btn btn-primary">Start leveling</a>
-              <a href="#endgame" class="btn btn-secondary">Endgame guide</a>
+              <a href="#leveling" class="btn btn-primary">Start with leveling</a>
+              <a href="#class" class="btn btn-secondary">Choose a playstyle</a>
             </div>
-
-            <ul class="hero-stats" aria-label="Quick strategy points">
-              <li>
-                <strong>Leveling</strong>
-                <span>Use the main story campaign and quick world quests for smooth progress.</span>
-              </li>
-              <li>
-                <strong>Gear</strong>
-                <span>Prioritize dungeon drops, upgrade tracks, and crafted gear.</span>
-              </li>
-              <li>
-                <strong>Endgame</strong>
-                <span>Balance Mythic+, raids, renown, and PvP for steady power gains.</span>
-              </li>
+            <ul class="hero-stats" aria-label="Progression basics">
+              <li><strong>Learn</strong><span>Follow the campaign and understand your class basics.</span></li>
+              <li><strong>Improve</strong><span>Upgrade gear that is a real improvement for your character.</span></li>
+              <li><strong>Choose</strong><span>Try dungeons, raids, PvP, or collection play at your own pace.</span></li>
             </ul>
           </div>
-
-          <div class="hero-panel">
+          <aside class="hero-panel" aria-label="Progression roadmap">
             <div class="panel-card">
-              <div class="panel-header">
-                <span class="status-dot"></span>
-                <span>Best progression flow</span>
-              </div>
-
-              <div class="mini-metric">
-                <span>Start</span>
-                <strong>Campaign + zones</strong>
-              </div>
-              <div class="mini-metric">
-                <span>Midgame</span>
-                <strong>Dungeons + quests</strong>
-              </div>
-              <div class="mini-metric">
-                <span>Endgame</span>
-                <strong>Raids / Mythic+ / PvP</strong>
-              </div>
+              <div class="panel-header"><span class="status-dot"></span><span>Your progression roadmap</span></div>
+              <div class="mini-metric"><span>First</span><strong>Campaign and leveling</strong></div>
+              <div class="mini-metric"><span>Next</span><strong>Class practice and starter gear</strong></div>
+              <div class="mini-metric"><span>Then</span><strong>Choose your endgame path</strong></div>
             </div>
-          </div>
+          </aside>
         </div>
       </section>
 
       <section class="section" id="leveling">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">Leveling</p>
-            <h2>Best ways to level up fast</h2>
+            <p class="eyebrow">Level efficiently</p>
+            <h2>How to level up faster</h2>
+            <p class="lead">The quickest route depends on the current expansion and your character. These habits work across most leveling routes.</p>
           </div>
-
           <div class="card-grid three-up">
-            <article class="info-card">
-              <span class="tag">1</span>
-              <h3>Follow the story</h3>
-              <p>
-                Complete the main campaign and zone progression first. It gives the strongest rewards and helps you unlock later content naturally.
-              </p>
-            </article>
+            <article class="info-card"><span class="tag">01</span><h3>Follow the main campaign</h3><p>Use the campaign or the current new-player quest route as your backbone. It introduces zones, unlocks features, and keeps quests moving in a sensible order.</p></article>
+            <article class="info-card"><span class="tag">02</span><h3>Keep quests moving</h3><p>Take nearby quests together, complete objectives in the same area, and turn them in while passing through. Skip long detours when they are not required for your goal.</p></article>
+            <article class="info-card"><span class="tag">03</span><h3>Mix in group content</h3><p>Queue for a suitable dungeon when available if you enjoy it. Learn the route and role, and keep questing while you wait where the game allows.</p></article>
+            <article class="info-card"><span class="tag">04</span><h3>Use rested experience</h3><p>Logging out in an inn or capital builds rested experience for eligible activities. It is a useful bonus over time, not a reason to interrupt a good session.</p></article>
+            <article class="info-card"><span class="tag">05</span><h3>Upgrade your skills</h3><p>Spend new talent points, read your ability tooltips, and practice a simple rotation. Stronger play helps you defeat quest enemies and complete objectives smoothly.</p></article>
+            <article class="info-card"><span class="tag">06</span><h3>Travel with a plan</h3><p>Use your map, flight paths, mounts, and unlocked travel options. Set a small goal for each play session so you spend less time deciding where to go.</p></article>
+          </div>
+          <div class="panel-box guide-callout">
+            <h3>A simple leveling loop</h3>
+            <p>Pick a campaign objective → collect nearby quests → finish them in one trip → turn them in → update talents and gear → repeat. If a dungeon queue pops and you want to run it, go; otherwise keep questing.</p>
+          </div>
+        </div>
+      </section>
 
-            <article class="info-card">
-              <span class="tag">2</span>
-              <h3>Do world quests</h3>
-              <p>
-                World quests are a reliable way to earn gear, experience, and progression items while moving through each zone.
-              </p>
-            </article>
+      <section class="section accent-section" id="class">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Pick what feels fun</p>
+            <h2>Classes, roles, and good weapons</h2>
+            <p class="lead">There is no single best weapon for every player. Your class and specialization determine which weapon types you can use and how they fit your abilities. Check your in-game spellbook and specialization details.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Playstyle</th><th>Common role options</th><th>Weapon styles you may see</th><th>Good fit if you like…</th></tr></thead>
+              <tbody>
+                <tr><td>Warrior</td><td>Damage, tank</td><td>Two-handed weapons, dual-wield, shield</td><td>Direct melee combat and several weapon setups</td></tr>
+                <tr><td>Paladin</td><td>Damage, tank, healer</td><td>One- or two-handed melee weapons, shield</td><td>Armored fantasy, support, and flexible roles</td></tr>
+                <tr><td>Hunter</td><td>Damage</td><td>Bows, guns, crossbows; some melee options by spec</td><td>Ranged attacks, pets, and fighting at a distance</td></tr>
+                <tr><td>Rogue</td><td>Damage</td><td>Daggers and other one-handed weapons</td><td>Stealth, mobility, and quick melee attacks</td></tr>
+                <tr><td>Priest</td><td>Damage, healer</td><td>Staves, wands, and other caster weapons</td><td>Spellcasting, healing, and ranged combat</td></tr>
+                <tr><td>Shaman</td><td>Damage, healer</td><td>One- or two-handed weapons, shields, caster weapons</td><td>Elemental spells, healing, or melee options</td></tr>
+                <tr><td>Mage / Warlock</td><td>Damage</td><td>Staves, wands, and other caster weapons</td><td>Ranged spell damage; Warlocks also command demons</td></tr>
+                <tr><td>Druid / Monk / Demon Hunter / Death Knight / Evoker</td><td>Varies by class and specialization</td><td>Weapon choices vary; some abilities use class forms or special rules</td><td>Distinct mechanics and different mixes of melee, ranged, tanking, or healing</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="split-grid guide-split">
+            <div class="panel-box"><h3>How to choose a class</h3><ul class="check-list"><li>Decide whether you prefer melee, ranged, healing, or tanking.</li><li>Try the class or specialization tutorial and read its starter tips.</li><li>Choose a class whose movement and resource style feels comfortable.</li><li>Use the class trial or a low-stakes dungeon to test a new specialization, if available.</li></ul></div>
+            <div class="panel-box"><h3>How to choose a weapon</h3><ul class="check-list"><li>Use a weapon your current specialization can equip.</li><li>Compare item level and the stats your spec values; higher item level is often a useful starting point.</li><li>Check whether your abilities scale with a particular weapon or require a certain type.</li><li>Do not buy an expensive weapon just for its appearance while leveling; upgrades arrive often.</li></ul></div>
+          </div>
+        </div>
+      </section>
 
-            <article class="info-card">
-              <span class="tag">3</span>
-              <h3>Run dungeons</h3>
-              <p>
-                Dungeons give better gear and help you learn your class while adding smooth progression toward midgame power spikes.
-              </p>
-            </article>
+      <section class="section" id="combat">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">Get better in combat</p><h2>Simple tips and tricks that help</h2></div>
+          <div class="card-grid three-up">
+            <article class="info-card"><h3>Make a basic action priority</h3><p>Know your main damage ability, resource builder and spender, interrupt, defensive, and movement skill. Follow your specialization guide for a current rotation rather than memorizing an old patch’s sequence.</p></article>
+            <article class="info-card"><h3>Use defensives before danger</h3><p>Damage-reduction, healing, and escape abilities are part of normal play. Learn what each does and use it before a dangerous hit when possible.</p></article>
+            <article class="info-card"><h3>Interrupt important casts</h3><p>Put your interrupt somewhere easy to press. In group content, stopping a dangerous enemy cast can prevent more damage than dealing a little extra damage.</p></article>
+            <article class="info-card"><h3>Move out of hazards</h3><p>Watch for ground effects and boss telegraphs. Keep attacking while moving when it is safe, but surviving mechanics comes first.</p></article>
+            <article class="info-card"><h3>Set up your interface</h3><p>Make health, resources, important cooldowns, and enemy casts easy to see. Keybind frequent abilities and test changes on a training dummy.</p></article>
+            <article class="info-card"><h3>Learn one improvement at a time</h3><p>After a fight, check what caused a death or missed mechanic. Fix one issue next run instead of changing every talent and keybind at once.</p></article>
           </div>
         </div>
       </section>
 
       <section class="section accent-section" id="gear">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Gear</p>
-            <h2>How to get stronger quickly</h2>
-          </div>
-
+          <div class="section-heading"><p class="eyebrow">Gear up smart</p><h2>Gear and character progression</h2><p class="lead">Exact item levels, upgrade currencies, and best rewards change by season. Use the current in-game Adventure Guide and upgrade vendors for what is available now.</p></div>
           <div class="split-grid">
-            <div class="panel-box">
-              <h3>Gear priorities</h3>
-              <ul class="check-list">
-                <li>Use dungeon rewards and weekly event gear upgrades first.</li>
-                <li>Keep your gear set consistent instead of constantly swapping.</li>
-                <li>Upgrade gear through vendor or progression tracks when available.</li>
-                <li>Craft or buy useful pieces for your class when needed.</li>
-                <li>Focus on stats that improve your role and build consistency.</li>
-              </ul>
-            </div>
-
-            <div class="panel-box">
-              <h3>What to avoid</h3>
-              <ul class="check-list muted-list">
-                <li>Ignoring quest rewards that are stronger than your current gear.</li>
-                <li>Stress-grinding without upgrading your gear level.</li>
-                <li>Forgetting to complete your weekly progression loop.</li>
-                <li>Running content you are not ready for without enough gear.</li>
-              </ul>
-            </div>
+            <div class="panel-box"><h3>Gear priorities</h3><ul class="check-list"><li>Take clear item-level upgrades from quests, dungeons, or events.</li><li>Use the current upgrade system when an item is worth keeping.</li><li>Compare secondary stats for close item-level choices using a current spec guide or sim tool.</li><li>Equip useful trinkets and a weapon that matches your specialization.</li><li>Save scarce upgrade materials for pieces you expect to use longer.</li></ul></div>
+            <div class="panel-box"><h3>Other progression</h3><ul class="check-list"><li>Complete campaign chapters that unlock endgame features.</li><li>Work on current reputation or renown rewards if they interest you.</li><li>Use professions for crafting, gathering, or making gold at your own pace.</li><li>Collect mounts, pets, transmogs, achievements, and exploration rewards when you want a break from power progression.</li><li>Check account-wide unlocks before repeating long tasks on another character.</li></ul></div>
           </div>
         </div>
       </section>
 
       <section class="section" id="endgame">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Endgame</p>
-            <h2>What to do once you're strong enough</h2>
+          <div class="section-heading"><p class="eyebrow">Choose your endgame</p><h2>There is more than one way to progress</h2></div>
+          <div class="card-grid three-up">
+            <article class="info-card"><span class="tag">PvE</span><h3>Dungeons and Mythic+</h3><p>Start with a difficulty you can comfortably finish. Learn boss mechanics, interrupts, routes, and affixes or seasonal rules before pushing higher keys.</p></article>
+            <article class="info-card"><span class="tag">Raid</span><h3>Raiding</h3><p>Use the in-game group finder to find a suitable difficulty or group. Learn the encounter guide, bring the expected consumables, and focus on mechanics as well as damage.</p></article>
+            <article class="info-card"><span class="tag">PvP</span><h3>Player versus player</h3><p>Begin with unrated battlegrounds or casual arenas to learn maps, crowd control, defensive timing, and your class matchup before trying rated play.</p></article>
+            <article class="info-card"><span class="tag">Solo</span><h3>Solo and outdoor content</h3><p>Quests, world events, delves or similar expansion activities, and world bosses can offer goals without forming a regular group. Check current availability in-game.</p></article>
+            <article class="info-card"><span class="tag">Social</span><h3>Guilds and friends</h3><p>A friendly guild can help with questions, group invitations, and learning content. Look for a group whose schedule and expectations suit you.</p></article>
+            <article class="info-card"><span class="tag">Collect</span><h3>Collections and achievements</h3><p>Explore old zones, chase appearances and mounts, or complete achievements. These are satisfying long-term goals and do not require rushing item level.</p></article>
           </div>
+          <div class="panel-box guide-callout"><h3>Pick your own pace</h3><p>You do not have to raid or run Mythic+ to enjoy WoW. Set a goal you like—finish a campaign, learn a dungeon, improve your PvP rating, craft an item, or collect something—and build from there.</p></div>
+        </div>
+      </section>
 
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Content</th>
-                  <th>Best for</th>
-                  <th>Why it matters</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Mythic+</td>
-                  <td>Fast gear progression</td>
-                  <td>Great source of level-appropriate upgrades and higher rewards.</td>
-                </tr>
-                <tr>
-                  <td>Raids</td>
-                  <td>Best loot and endgame gear</td>
-                  <td>Strongest progression path for full set upgrades and difficulty goals.</td>
-                </tr>
-                <tr>
-                  <td>Renown / reputation</td>
-                  <td>Account-wide rewards</td>
-                  <td>Unlocks cosmetics, bonuses, mounts, and progression perks.</td>
-                </tr>
-                <tr>
-                  <td>PvP</td>
-                  <td>Competitive players</td>
-                  <td>Seasonal gear and rankings reward strong play and long-term progression.</td>
-                </tr>
-              </tbody>
-            </table>
+      <section class="section accent-section" id="checklist">
+        <div class="container">
+          <div class="section-heading"><p class="eyebrow">Your session plan</p><h2>A flexible weekly checklist</h2><p class="lead">Treat this as a menu, not a required grind. Weekly objectives and rewards vary by expansion and season.</p></div>
+          <div class="check-grid">
+            <div class="check-box"><h3>Before you play</h3><ul class="check-list task-list"><li><span class="dot"></span>Pick one goal for this session</li><li><span class="dot"></span>Check your talents, gear, and repair status</li><li><span class="dot"></span>Read the current objective or encounter guide</li><li><span class="dot"></span>Join a guild or group if you want company</li></ul></div>
+            <div class="check-box"><h3>Progress tracker</h3><div class="tracker"><label class="tracker-item"><input type="checkbox" /><span>Completed a campaign or world objective</span></label><label class="tracker-item"><input type="checkbox" /><span>Practiced a class skill or dungeon mechanic</span></label><label class="tracker-item"><input type="checkbox" /><span>Got a meaningful gear or profession upgrade</span></label><label class="tracker-item"><input type="checkbox" /><span>Made progress on a goal I enjoy</span></label></div></div>
           </div>
         </div>
       </section>
 
-      <section class="section checklist-section" id="checklist">
+      <section class="section" id="resources">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Daily checklist</p>
-            <h2>Keep your progress moving</h2>
+          <div class="section-heading"><p class="eyebrow">Keep your info current</p><h2>Helpful resources</h2><p class="lead">Use official notes for what changed this patch, then look up your class and activity in a guide that matches the current season.</p></div>
+          <div class="card-grid three-up">
+            <article class="info-card"><h3>Official WoW news</h3><p>Expansion announcements and game news from Blizzard.</p><p><a class="resource-link" href="https://worldofwarcraft.blizzard.com/en-us/news" target="_blank" rel="noopener noreferrer">Visit World of Warcraft News ↗</a></p></article>
+            <article class="info-card"><h3>Official update notes</h3><p>Check patch notes and hotfixes for changes to classes and progression systems.</p><p><a class="resource-link" href="https://worldofwarcraft.blizzard.com/en-us/content-update-notes" target="_blank" rel="noopener noreferrer">Read Content Update Notes ↗</a></p></article>
+            <article class="info-card"><h3>Class and encounter guides</h3><p>For detailed rotations, talents, and current encounter strategies, check the date and patch on any third-party guide before following it.</p><p><a class="resource-link" href="https://www.icy-veins.com/wow/" target="_blank" rel="noopener noreferrer">Browse WoW Guides ↗</a></p></article>
           </div>
-
-          <div class="check-grid">
-            <div class="check-box">
-              <h3>What to do every session</h3>
-              <ul class="check-list task-list">
-                <li><span class="dot"></span> Finish your main story or zone objectives</li>
-                <li><span class="dot"></span> Do a dungeon or key run if your gear is ready</li>
-                <li><span class="dot"></span> Complete a few world quests for experience and rewards</li>
-                <li><span class="dot"></span> Check renown or faction progress once you unlock it</li>
-              </ul>
-            </div>
-
-            <div class="check-box">
-              <h3>Progress tracker</h3>
-              <div class="tracker">
-                <label class="tracker-item">
-                  <input type="checkbox" />
-                  <span>Finished story questing</span>
-                </label>
-                <label class="tracker-item">
-                  <input type="checkbox" />
-                  <span>Completed dungeon or group content</span>
-                </label>
-                <label class="tracker-item">
-                  <input type="checkbox" />
-                  <span>Gained gear upgrades</span>
-                </label>
-                <label class="tracker-item">
-                  <input type="checkbox" />
-                  <span>Tracked renown or weekly goals</span>
-                </label>
-              </div>
-            </div>
-          </div>
+          <p class="guide-disclaimer">This is an independent fan-made guide and is not affiliated with or endorsed by Blizzard Entertainment. Game systems and recommendations can change; verify current details in-game.</p>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>WoW Progression Guide • Level, gear, and grow efficiently.</p>
-      </div>
-    </footer>
-
+    <footer class="site-footer"><div class="container footer-wrap"><p>WoW Progression Guide • Learn your class. Play your way.</p></div></footer>
     <script src="script.js"></script>
   </body>
 </html>
