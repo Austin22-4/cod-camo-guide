@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#081c3a"/><stop offset=".55" stop-color="#4b398b"/><stop offset="1" stop-color="#f08b7b"/></linearGradient>
+    <radialGradient id="portal"><stop stop-color="#fff5c9"/><stop offset=".28" stop-color="#81ffe1"/><stop offset=".62" stop-color="#30b9ed" stop-opacity=".8"/><stop offset="1" stop-color="#30b9ed" stop-opacity="0"/></radialGradient>
+    <linearGradient id="mountain" x2="0" y2="1"><stop stop-color="#364a7b"/><stop offset="1" stop-color="#101a34"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/><circle cx="1320" cy="430" r="370" fill="url(#portal)"/>
+  <path d="M0 760 270 420 450 650 700 300 940 730 1160 465 1360 700 1580 370 1920 770v310H0z" fill="url(#mountain)"/>
+  <path d="m700 300 95 170-96-52-102 44zM1580 370l105 150-100-38-85 39z" fill="#d3ddff" opacity=".78"/>
+  <path d="M0 850q260-100 520 0t520 0 520 0 360 0v230H0z" fill="#10152a"/><path d="M0 910q260-100 520 0t520 0 520 0 360 0" fill="none" stroke="#69e8db" stroke-opacity=".6" stroke-width="4"/>
+  <g fill="#f5f0ff" font-family="Arial,sans-serif"><text x="115" y="145" font-size="28" letter-spacing="12" opacity=".72">FANTASY REALMS / ORIGINAL WALLPAPER</text><text x="110" y="760" font-size="100" font-weight="700" letter-spacing="10">AETHER</text><text x="118" y="820" font-size="28" letter-spacing="11" opacity=".78">MOUNTAINS • MAGIC • MYSTERY</text></g>
+  <g fill="#bafaf0" opacity=".85"><circle cx="300" cy="300" r="4"/><circle cx="520" cy="185" r="5"/><circle cx="1030" cy="250" r="4"/><circle cx="1760" cy="230" r="5"/><circle cx="900" cy="510" r="3"/><circle cx="1480" cy="650" r="4"/></g>
+</svg>

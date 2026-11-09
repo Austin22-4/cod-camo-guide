@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#27204f"/><stop offset=".48" stop-color="#fa7668"/><stop offset="1" stop-color="#ffbd6c"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#404d77"/><stop offset="1" stop-color="#101c34"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/><circle cx="1420" cy="340" r="130" fill="#ffd996" opacity=".85"/><path d="M0 615q200-70 400 0t400 0 400 0 400 0 320 0v465H0z" fill="url(#sea)"/>
+  <path d="M0 760 160 690 280 730 450 630 580 710 760 650 900 735 1080 660 1250 740 1430 640 1600 710 1780 620 1920 680v400H0z" fill="#111a2b"/>
+  <g fill="#101820"><path d="M160 690q35-160 0-280 90 55 95 160 38-105 105-127-55 87-74 207z"/><path d="M520 710q40-210 0-350 100 80 110 190 44-110 120-145-58 110-88 270z"/><path d="M1590 690q32-170-10-310 94 64 105 170 40-105 110-130-55 95-76 240z"/></g>
+  <g fill="#fcebd6" font-family="Arial,sans-serif"><text x="110" y="140" font-size="28" letter-spacing="12" opacity=".78">COASTAL CITY / ORIGINAL WALLPAPER</text><text x="110" y="830" font-size="100" font-weight="700" letter-spacing="9">SUNSET DRIVE</text><text x="118" y="890" font-size="28" letter-spacing="11" opacity=".8">PALMS • PACIFIC • CITY LIGHTS</text></g>
+  <path d="M0 1000q330-130 650 0t650 0 620 0" fill="none" stroke="#ffbe70" stroke-width="6" opacity=".55"/>
+</svg>

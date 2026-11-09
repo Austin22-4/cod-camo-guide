@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#140d3c"/><stop offset=".52" stop-color="#7b2c84"/><stop offset="1" stop-color="#ff6f85"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#162c60"/><stop offset="1" stop-color="#071626"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/><ellipse cx="1350" cy="370" rx="380" ry="160" fill="#ff4fbd" opacity=".45" filter="url(#blur)"/><circle cx="1340" cy="380" r="115" fill="#ffb5ad" opacity=".86"/>
+  <path d="M0 650h1920v430H0z" fill="url(#water)"/><path d="M0 650h1920" stroke="#ff91c7" stroke-width="5" opacity=".65"/>
+  <g fill="#10142d"><path d="M120 650V455h110v195zm140 0V380h155v270zm190 0V500h90v150zm130 0V330h170v320zm210 0V450h125v200zm165 0V360h190v290zm225 0V470h120v180zm155 0V405h210v245zm240 0V490h110v160z"/></g>
+  <g fill="none" stroke="#44f1ed" stroke-width="6" opacity=".82"><path d="M290 420h55m-55 25h88M720 370h75m-75 22h45M1265 402h100m-100 22h60M1660 445h80"/></g>
+  <path d="M0 835q200-50 400 0t400 0 400 0 400 0 320 0M0 920q200-50 400 0t400 0 400 0 400 0 320 0" fill="none" stroke="#ff64bd" stroke-width="4" opacity=".5"/>
+  <g fill="#fff0f8" font-family="Arial,sans-serif"><text x="105" y="135" font-size="28" letter-spacing="12" opacity=".78">NEON COAST / ORIGINAL WALLPAPER</text><text x="108" y="805" font-size="100" font-weight="700" letter-spacing="9">AFTERGLOW</text><text x="116" y="865" font-size="28" letter-spacing="11" opacity=".82">TROPICAL NIGHT • CITY NEON</text></g>
+</svg>

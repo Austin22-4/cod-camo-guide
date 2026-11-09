@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101b17"/><stop offset=".55" stop-color="#303a31"/><stop offset="1" stop-color="#0a0e12"/></linearGradient>
+    <pattern id="grid" width="90" height="90" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><path d="M0 0h90v90H0z" fill="none" stroke="#bdc6a0" stroke-opacity=".08" stroke-width="2"/><path d="M0 45h90M45 0v90" stroke="#bdc6a0" stroke-opacity=".06"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#f3a43b" stop-opacity=".45"/><stop offset="1" stop-color="#f3a43b" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" fill="url(#grid)"/><circle cx="1450" cy="380" r="520" fill="url(#glow)"/>
+  <path d="M0 850 240 690 430 810 650 590 900 820 1120 600 1360 810 1590 630 1920 830v250H0z" fill="#070c0d" opacity=".8"/>
+  <path d="M0 930h1920M0 970h1920M0 1010h1920" stroke="#d7d4be" stroke-opacity=".14" stroke-width="3"/>
+  <g fill="#f0e9ce" font-family="Arial,sans-serif"><text x="115" y="170" font-size="28" letter-spacing="12" opacity=".7">FIELD NOTES / ORIGINAL WALLPAPER</text><text x="105" y="720" font-size="100" font-weight="700" letter-spacing="8">TACTICAL</text><text x="112" y="780" font-size="28" letter-spacing="10" opacity=".72">OLIVE • STEEL • AMBER</text></g>
+  <path d="M1540 210h210M1645 105v210" stroke="#f3a43b" stroke-width="3" opacity=".7"/><circle cx="1645" cy="210" r="70" fill="none" stroke="#f3a43b" stroke-opacity=".55" stroke-width="2"/>
+</svg>
